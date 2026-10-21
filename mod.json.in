@@ -1,7 +1,7 @@
 {
-  "id": "com.baxlek.extra_cheats",
+  "id": "dev.baxlek.extra_cheats",
   "name": "Extra Cheats",
   "version": "@PROJECT_VERSION@",
   "author": "baxlek",
-  "description": "Optional unlimited bottle contents for Dusklight"
+  "description": "Adds additional cheats to Dusklight"
 }
