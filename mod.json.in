@@ -1,7 +1,7 @@
 {
-  "id": "com.example.my_mod",
-  "name": "My Mod",
+  "id": "dev.baxlek.extra_cheats",
+  "name": "Extra Cheats",
   "version": "@PROJECT_VERSION@",
-  "author": "You",
-  "description": "An example Dusklight mod"
+  "author": "baxlek",
+  "description": "Adds additional cheats to Dusklight"
 }
