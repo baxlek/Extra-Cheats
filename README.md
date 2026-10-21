@@ -1,6 +1,6 @@
 # Extra Cheats
 
-A [Dusklight](https://github.com/TwilitRealm/dusklight) mod that add extra cheats that are obscure and niche.
+A [Dusklight](https://github.com/TwilitRealm/dusklight) mod that adds extra cheats that are obscure and niche.
 
 ## Unlimited bottle contents
 
