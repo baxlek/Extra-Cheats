@@ -1,24 +1,27 @@
-# Dusklight Mod Template
+# Extra Cheats
 
-A standalone template for [Dusklight](https://github.com/TwilitRealm/dusklight) mods.
+A [Dusklight](https://github.com/TwilitRealm/dusklight) mod that optionally prevents bottle contents from being consumed.
+
+## Usage
+
+Enable **Extra Cheats** in the in-game mod manager, select its details pane, and turn on
+**Unlimited bottle contents**. The toggle starts **off** each time the mod is loaded.
+While on, drinking, pouring, using bottled oil, automatic fairy revival, and consuming bee larvae
+retain the contents (including full milk rather than half milk), without blocking the item's effects.
+Empty bottles can still be filled. Turn the toggle off to immediately restore normal consumption;
+contents already consumed while it was off are not restored.
 
 See the [Dusklight modding documentation](https://github.com/TwilitRealm/dusklight/blob/main/docs/modding.md)
 for the full mod API: services, hooking game functions, asset overlays, and more.
 
-## Quick start
+## Build
 
-1. Click "Use this template" to create a new repository for your mod.
-2. Edit `mod.json.in`: set your mod's `id` (reverse-DNS style, e.g. `com.example.my_mod`),
-   `name`, `author`, and `description`.
-3. Rename the target in `CMakeLists.txt` (`add_mod(my_mod ...)`) (this names the `.dusk` file).
-4. Write your mod in `src/mod.cpp`.
-5. Build locally:
-   ```sh
-   cmake -B build
-   cmake --build build
-   ```
+```sh
+cmake -B build
+cmake --build build
+```
 
-The result is `build/mods/<name>.dusk`. Copy it into the game's mods folder to try it:
+The result is `build/mods/extra_cheats.dusk`. Copy it into the game's mods folder to try it:
 
 - Windows: `%APPDATA%\TwilitRealm\Dusklight\mods`
 - Linux: `~/.local/share/TwilitRealm/Dusklight/mods`
