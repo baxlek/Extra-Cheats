@@ -1,11 +1,9 @@
 # Extra Cheats
 
-A [Dusklight](https://github.com/TwilitRealm/dusklight) mod that optionally prevents bottle contents from being consumed.
+A [Dusklight](https://github.com/TwilitRealm/dusklight) mod that add extra cheats that are obscure and niche.
 
-## Usage
+## Unlimited bottle contents
 
-Enable **Extra Cheats** in the in-game mod manager, select its details pane, and turn on
-**Unlimited bottle contents**. The toggle starts **off** each time the mod is loaded.
 While on, drinking, pouring, using bottled oil, automatic fairy revival, and consuming bee larvae
 retain the contents (including full milk rather than half milk), without blocking the item's effects.
 Empty bottles can still be filled. Turn the toggle off to immediately restore normal consumption;
